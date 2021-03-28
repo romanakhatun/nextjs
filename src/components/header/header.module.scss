@@ -3,7 +3,7 @@
 .header{
   display: flex;
   justify-content: space-between;
-  padding: 25px 100px;
+  padding: 20px 100px;
   background: $blue-900;
   color: $white-100;
   
@@ -11,8 +11,13 @@
     font-size: $font-size-500;
     font-family: $font-family;
   }
-  .nav a{
-    padding: 0px 10px;
-    font-family: $font-family;
+  .nav {
+     padding-top: 5px;
+    a{
+      padding: 0px 10px;
+      font-family: $font-family;
+      font-size: $font-size-300;
+    }
   }
+  
 }
