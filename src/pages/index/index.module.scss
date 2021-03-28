@@ -1,0 +1,21 @@
+@import '../../themes/theme.scss';
+
+.homeSection{
+  background-color: $blue-900;
+  width: 100%;
+  padding: 100px;
+
+  .heading1{
+    color: $white-100;
+    font-size: $font-size-700;
+    margin-bottom: $spacing-200;
+    font-weight: normal;
+    text-align: center;
+  }
+  p{
+    color: $white-100;
+    text-align: center;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-500;
+  }
+}

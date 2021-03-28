@@ -4,8 +4,8 @@
   display: flex;
   justify-content: space-between;
   padding: 20px 100px;
-  background: $blue-900;
-  color: $white-100;
+  // background: $blue-900;
+  font-weight: $font-weight-bold;
   
   .logo{
     font-size: $font-size-500;

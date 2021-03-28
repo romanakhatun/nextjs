@@ -11,6 +11,7 @@ const Header: React.FC<HeaderProps> = () => {
         <AppLink href="/" label="Next" />
       </div>
       <div className={styles.nav}>
+        <AppLink href="/" label="Home" />
         <AppLink href="/about" label="About" />
         <AppLink href="/contact" label="Contact" />
       </div>

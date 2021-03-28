@@ -2,7 +2,7 @@
 @import './theme';
 
 @include normalize();
-
+html,
 body {
   font-family: $font-family;
 
