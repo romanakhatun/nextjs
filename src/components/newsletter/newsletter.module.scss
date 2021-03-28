@@ -1,0 +1,40 @@
+@import '../../themes/theme';
+
+.newsletterBoxWrap{    
+    padding-top: 40px;
+    text-align: center;
+    height: 110px;
+    text-align: center;
+
+    input{
+        border: 1px solid #dddddd;
+        padding: $spacing-100 $spacing-200 $spacing-100 $spacing-200;
+        border-radius: $spacing-40 0 0 $spacing-40;
+    }
+
+    input:focus{
+        outline: none;
+    }
+
+    button{
+        margin-top: $spacing-100;
+        border-radius: $spacing-40;
+        background-color: #673f1a;
+        color: $text-color-100;
+        padding: 9px 10px;
+        border-radius: 0 $spacing-40  $spacing-40 0;
+    }
+    button:focus{
+        outline: none;
+    }
+
+    .errorMsg{
+       color: red;
+    }
+
+    .thankMsg{
+        color: green;
+    }
+}
+
+  
